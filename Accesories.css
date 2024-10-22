@@ -1,0 +1,198 @@
+
+
+body {
+    background-color: rgb(207, 207, 207);
+}
+
+
+
+nav {
+    background-color:white;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#logo {
+    height: 30px;
+    width: 30px;
+    float: left;
+    padding: 8px;
+}
+
+#navs {
+    list-style-type: none;
+    float:left;
+    display: inline;
+    margin-left: 700px;
+}
+
+a {
+    margin-left:10px ;
+    text-decoration: none;
+    color: black;
+    justify-content: end;
+}
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+
+#maindiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-items: center;
+    gap: 18%;
+    padding: 2%;
+    margin: 3%;
+
+}
+
+#card {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#cardimg {
+    padding-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+#menu {
+    height: 20px;
+    margin-left: 10px;
+    display: none;
+   }
+
+
+
+   footer {
+    background-color: black;
+    height: max-content;
+    padding: 4%;
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+#head {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+footer > ul > li {
+    list-style-type: none;
+    
+}
+#social> li> img {
+    padding: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+#social > li {
+    display: inline;
+    margin-top: 20px;
+
+}
+
+#social > li > input {
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#social > li> button {
+    width: 60px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+
+
+@media(max-width:1280px) {
+
+    #navs {
+        margin-left: 400px;
+    }
+    
+
+    
+}
+@media(max-width:1024px) {
+
+    
+
+    #navs {
+        margin-left: 300px;
+    }
+    #h4 {
+        margin-right: 0px;
+        padding-left: 150px;
+    }
+
+    
+ 
+}
+@media(max-width:800px) {
+
+    #logo {
+        width: 30px;
+    }
+
+    #navs {
+        margin-left: 100px;
+        font-size: 13px;
+    }
+   
+
+   
+ 
+ }
+
+@media(max-width:500px){
+
+    nav {
+        height: 160px;
+    }
+
+    #navs {
+        float: left;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    #logo {
+        width: 30px;
+        margin-right: 5%;
+        padding: 5px;
+    }
+
+    #menu {
+        display: block;
+        padding-top: 20px;
+        
+    }
+
+    #menu > img {
+        height: 20px;
+        margin-left: 30px;
+    }
+
+
+}
+ 

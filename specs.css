@@ -1,0 +1,94 @@
+
+nav {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 1500px;
+    border-radius: 10px;
+}
+
+#logo {
+    height: 50px;
+    width: 150px;
+    float: left;
+}
+
+#navs {
+    list-style-type: none;
+    float:right;
+    display: inline;
+    margin-right: 60px;
+}
+
+a {
+    margin-left:10px ;
+    text-decoration: none;
+    color: black;
+    justify-content: end;
+}
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+#h4 {
+    float: left;
+    padding-left: 500px;
+    margin-right: 220px;
+}
+
+#maindiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 6%;
+    margin: 2%;
+    padding: 2%;
+    height: max-content;
+    align-items: center;
+}
+
+#spec {
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+    width: 500px;
+    border-radius: 5px;
+    height: 450px;
+    text-align: center;
+}
+
+#specimg {
+    padding-top: 10px;
+    height: 300px;
+    width: 200px;
+}
+
+#model {
+    text-align: center;
+    font-size: large;
+   
+}
+
+#price {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(157, 157, 249);
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+}
+
+table, th, tr, td {
+    border: 1px solid black ;
+    border-collapse: collapse;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    margin-left:20px ;
+}

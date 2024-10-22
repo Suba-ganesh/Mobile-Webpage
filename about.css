@@ -1,0 +1,17 @@
+
+#maindiv {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 8%;
+ margin: 2%;
+}
+
+#box2 {
+    width: 500px;
+}
+
+#box3 {
+    width: 1200px;
+}
+
+
